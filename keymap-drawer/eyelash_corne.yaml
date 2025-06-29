@@ -44,12 +44,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
+  - Number
+  - {t: '$$mdi:keyboard-space$$', h: Function}
+  - {t: '$$mdi:keyboard-return$$', h: Function}
+  - Symbol
   - $$mdi:apple-keyboard-option$$
-  NUMBER:
+  Number:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  SYMBOL:
+  Symbol:
   - $$mdi:keyboard-esc$$
   - '!'
   - '@'
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn:
+  Function:
   - '&studio_unlock'
   - F1
   - F2
